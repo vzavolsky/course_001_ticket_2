@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        String palindrom = "loqaqol1";
+        String palindrom = "loqaqol";
         int palindormLength = palindrom.length();
         boolean flag = true;
         for (int i = 0; i < palindormLength; i++, palindormLength--) {
